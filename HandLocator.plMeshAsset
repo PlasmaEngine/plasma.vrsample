@@ -1,0 +1,278 @@
+HeaderV2
+{
+o
+{
+	Uuid %id{u4{4868019263792545683,4643191838129068099}}
+	s %t{"plAssetDocumentInfo"}
+	u3 %v{2}
+	s %n{"Header"}
+	p
+	{
+		s %AssetType{"Mesh"}
+		VarArray %Dependencies{}
+		Uuid %DocumentID{u4{4868019263792545683,4643191838129068099}}
+		u4 %Hash{2831927440380906224}
+		VarArray %MetaInfo{}
+		VarArray %Outputs{}
+		VarArray %PackageDeps
+		{
+			s{"{ c069b8a2-ccad-417f-bca4-8739efc222cf }"}
+		}
+		VarArray %References
+		{
+			s{"{ c069b8a2-ccad-417f-bca4-8739efc222cf }"}
+		}
+	}
+}
+}
+Objects
+{
+o
+{
+	Uuid %id{u4{1779789745636219813,4717614732126279856}}
+	s %t{"plMeshAssetProperties"}
+	u3 %v{9}
+	p
+	{
+		b %AggressiveSimplification{0}
+		Angle %Angle{f{0xDB0FC940}}
+		b %BakeSmoothOutlineNormals{0}
+		b %Cap{1}
+		b %Cap2{1}
+		u2 %Detail{0}
+		u2 %Detail2{0}
+		b %FlipForwardDir{1}
+		f %Height{0x0000803F}
+		b %HighPrecision{0}
+		b %ImportMaterials{0}
+		s %ImportTransform{"plMeshImportTransform::Blender_YUp"}
+		VarArray %Materials
+		{
+			Uuid{u4{9709375996366077855,5676618053890272914}}
+		}
+		u1 %MaxSimplificationError{5}
+		s %MeshExactIncludeNames{""}
+		s %MeshExcludeTags{"$;$UCX_"}
+		s %MeshFile{""}
+		s %MeshIncludeTags{""}
+		u1 %MeshSimplification{50}
+		b %MeshesInNodeSpace{0}
+		b %MeshesInTopNodeSpace{0}
+		Vec3 %NPRNormalCenter{f{0,0,0}}
+		s %NPRNormalMode{"plMeshNPRNormalMode::Off"}
+		f %NPRNormalRadius{0}
+		f %NPRNormalStrength{0x0000803F}
+		s %PrimitiveType{"plMeshPrimitive::Sphere"}
+		f %Radius{0x0000003F}
+		f %Radius2{0x0000003F}
+		b %RecalculateNormals{0}
+		b %RecalculateTangents{1}
+		s %RightDir{"plBasisAxis::NegativeX"}
+		b %SimplifyMesh{0}
+		f %UniformScaling{0xCDCC4C3E}
+		s %UpDir{"plBasisAxis::PositiveY"}
+		s %VertexColorConversion{"plMeshVertexColorConversion::None"}
+		b %VirtualGeometry{1}
+		f %VirtualGeometryEdgeLimit{0x0000803F}
+		u1 %VirtualGeometryReduction{50}
+	}
+}
+o
+{
+	Uuid %id{u4{9709375996366077855,5676618053890272914}}
+	s %t{"plMaterialResourceSlot"}
+	u3 %v{1}
+	p
+	{
+		s %Label{"Default"}
+		s %Resource{"{ c069b8a2-ccad-417f-bca4-8739efc222cf }"}
+	}
+}
+o
+{
+	Uuid %id{u4{18096612296587978288,6449934965513159559}}
+	s %t{"plDocumentRoot"}
+	u3 %v{1}
+	s %n{"ObjectTree"}
+	p
+	{
+		VarArray %Children
+		{
+			Uuid{u4{1779789745636219813,4717614732126279856}}
+		}
+	}
+}
+}
+Types
+{
+o
+{
+	Uuid %id{u4{11674692945138119280,7958532569312584972}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::Class|plTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{""}
+		s %PluginName{"plEditorPluginAssets"}
+		VarArray %Properties{}
+		s %TypeName{"plMaterialResourceSlot"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{4572215149935407619,9171673326008965719}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::Class|plTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"plReflectedClass"}
+		s %PluginName{"plEditorPluginAssets"}
+		VarArray %Properties{}
+		s %TypeName{"plMeshAssetProperties"}
+		u3 %TypeVersion{9}
+	}
+}
+o
+{
+	Uuid %id{u4{7009381072334277535,9659459603664967231}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::Class|plTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"plReflectedClass"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"plDocumentRoot"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{16819636187740221814,11089501717885464587}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::Class|plTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{""}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"plEnumBase"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{7247182849452030899,11149460721636790200}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::IsEnum|plTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"plEnumBase"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"plMeshVertexColorConversion"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{809951174472973127,11988311960083525130}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::IsEnum|plTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"plEnumBase"}
+		s %PluginName{"plEditorPluginAssets"}
+		VarArray %Properties{}
+		s %TypeName{"plMeshNPRNormalMode"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{11264905787349757498,13035192948806003434}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::IsEnum|plTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"plEnumBase"}
+		s %PluginName{"plEditorPluginAssets"}
+		VarArray %Properties{}
+		s %TypeName{"plMeshPrimitive"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{10922880801870960813,16490210945398398338}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::IsEnum|plTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"plEnumBase"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"plMeshImportTransform"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{13033624727069548121,17368468367984449402}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::Class|plTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{""}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"plReflectedClass"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{698364993276436088,17804542439804637414}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::IsEnum|plTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"plEnumBase"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"plBasisAxis"}
+		u3 %TypeVersion{1}
+	}
+}
+}

@@ -1,0 +1,82 @@
+// The exact package versions this project resolved to, and the SHA-256 of each file they ship.
+//
+// Written by the editor; commit it. Opening the project on another machine installs these versions and
+// refuses any download whose hash differs. Editing this file by hand fails its digest: change the project's
+// packages in the Package Manager and the lock is rewritten.
+
+Lock
+{
+	int32 %Schema{1}
+	string %Engine{"0.12.1"}
+	string %Abi{"win64-msvc19-0.12.1-abi7-dev"}
+}
+
+Package
+{
+	string %Id{"plasma.jolt"}
+	string %Version{"1.3.1"}
+	string %Source{"registry"}
+	string %Registry{"plasma-official"}
+	string %AbiTag{"win64-msvc19-0.12.1-abi7-dev"}
+	Component
+	{
+		string %Name{"manifest"}
+		string %Sha256{"1d6cf7a7cfc1bee2ab7b307df2964342092da4dbea8e3c3432a3aceff868389f"}
+	}
+	Component
+	{
+		string %Name{"editor-win64"}
+		string %Sha256{"36e8cc417298a8f6116c88dab7c8956999eca7c9f70d32700715456b2f8920f4"}
+	}
+	Component
+	{
+		string %Name{"sdk-win64"}
+		string %Sha256{"40145fc3e1246f225a92c27ed4e50dbf05d0ae6fa8fa84dfa8bf092a12d94b38"}
+	}
+	Component
+	{
+		string %Name{"tool"}
+		string %Sha256{"4980d8a4cb4c45c53d6579777a1b3b1d9d1c0a337c5c4b74e05ce6c6e55a59d3"}
+	}
+	Component
+	{
+		string %Name{"banner"}
+		string %Sha256{"76d8c57e489527cf8cf3e2bea5129a2d5b643ca50896b8c4135caf50afa26dc9"}
+	}
+	Component
+	{
+		string %Name{"assets"}
+		string %Sha256{"9f4c12440628d77790e10ba17e396505bee1bb033175c0d45a7137f40d750500"}
+	}
+	Component
+	{
+		string %Name{"runtime-win64"}
+		string %Sha256{"b24e3a918aea498e90cef63484d14db70bf4d6605a4de22409e7159a2bf2ea15"}
+	}
+	Component
+	{
+		string %Name{"icon"}
+		string %Sha256{"e62068e93acbed9bb8ed3bcce19cc77fc3e286d325c3a63510725b265f8f3443"}
+	}
+}
+
+Package
+{
+	string %Id{"plasma.openxr"}
+	string %Version{"1.3.1"}
+	string %Source{"local"}
+	string %AbiTag{"win64-msvc19-0.12.1-abi7-dev"}
+}
+
+Package
+{
+	string %Id{"plasma.xrtoolkit"}
+	string %Version{"1.0.0"}
+	string %Source{"local"}
+	string %AbiTag{"win64-msvc19-0.12.1-abi7-dev"}
+}
+
+Digest
+{
+	string %Sha256{"1248de8c307027cf4db9f9f76457aa048138d39010d8fadb1d52cd69d1eb1afd"}
+}
