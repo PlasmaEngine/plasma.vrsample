@@ -7,36 +7,31 @@
 Lock
 {
 	int32 %Schema{1}
-	string %Engine{"0.12.1"}
-	string %Abi{"win64-msvc19-0.12.1-abi7-dev"}
+	string %Engine{"0.12.2"}
+	string %Abi{"win64-msvc19-0.12.2-abi7-dev"}
 }
 
 Package
 {
 	string %Id{"plasma.jolt"}
-	string %Version{"1.3.1"}
+	string %Version{"1.3.2"}
 	string %Source{"registry"}
 	string %Registry{"plasma-official"}
-	string %AbiTag{"win64-msvc19-0.12.1-abi7-dev"}
+	string %AbiTag{"win64-msvc19-0.12.2-abi7-dev"}
 	Component
 	{
-		string %Name{"manifest"}
-		string %Sha256{"1d6cf7a7cfc1bee2ab7b307df2964342092da4dbea8e3c3432a3aceff868389f"}
-	}
-	Component
-	{
-		string %Name{"editor-win64"}
-		string %Sha256{"36e8cc417298a8f6116c88dab7c8956999eca7c9f70d32700715456b2f8920f4"}
-	}
-	Component
-	{
-		string %Name{"sdk-win64"}
-		string %Sha256{"40145fc3e1246f225a92c27ed4e50dbf05d0ae6fa8fa84dfa8bf092a12d94b38"}
+		string %Name{"runtime-win64"}
+		string %Sha256{"00510d8a10e97eb854f01d9cc66da729ed54ba408455321cfdcedfac3edfc783"}
 	}
 	Component
 	{
 		string %Name{"tool"}
 		string %Sha256{"4980d8a4cb4c45c53d6579777a1b3b1d9d1c0a337c5c4b74e05ce6c6e55a59d3"}
+	}
+	Component
+	{
+		string %Name{"manifest"}
+		string %Sha256{"6791b325892f303a9aafe6dad17b41851c29cfcd1a83257046c7a9ca92b010b1"}
 	}
 	Component
 	{
@@ -46,37 +41,99 @@ Package
 	Component
 	{
 		string %Name{"assets"}
-		string %Sha256{"9f4c12440628d77790e10ba17e396505bee1bb033175c0d45a7137f40d750500"}
+		string %Sha256{"96ed10de934bf240288a8c43790e008a1c6698e5721d042e6d7f7898605d5ffb"}
 	}
 	Component
 	{
-		string %Name{"runtime-win64"}
-		string %Sha256{"b24e3a918aea498e90cef63484d14db70bf4d6605a4de22409e7159a2bf2ea15"}
+		string %Name{"editor-win64"}
+		string %Sha256{"d25d0d457eb8eefad47b3e5f95c404dc04d5b3c6ba07ac008a08a6f07794c906"}
 	}
 	Component
 	{
 		string %Name{"icon"}
 		string %Sha256{"e62068e93acbed9bb8ed3bcce19cc77fc3e286d325c3a63510725b265f8f3443"}
 	}
+	Component
+	{
+		string %Name{"sdk-win64"}
+		string %Sha256{"f837b1e019ab30eff33dd76777e3c09bc970112c5c951de93a9ceff1ce76c93f"}
+	}
 }
 
 Package
 {
 	string %Id{"plasma.openxr"}
-	string %Version{"1.3.1"}
-	string %Source{"local"}
-	string %AbiTag{"win64-msvc19-0.12.1-abi7-dev"}
+	string %Version{"1.3.2"}
+	string %Source{"registry"}
+	string %Registry{"plasma-official"}
+	string %AbiTag{"win64-msvc19-0.12.2-abi7-dev"}
+	Component
+	{
+		string %Name{"sdk-win64"}
+		string %Sha256{"04ab9f86428c57e573a966d9b9ea73ad7d04dd6c72ed11bbb86e94c3220df8a7"}
+	}
+	Component
+	{
+		string %Name{"icon"}
+		string %Sha256{"1f62d765474b6821b2b7028f106b0001d9ac2a92c8e5031efa87113c0fb0f294"}
+	}
+	Component
+	{
+		string %Name{"runtime-win64"}
+		string %Sha256{"4f274616209b2ca53f9dd947f83f6b65d3d82719fc594912c5d434f421a0f46f"}
+	}
+	Component
+	{
+		string %Name{"banner"}
+		string %Sha256{"aa0a93421fff9a6cecac6ea7ce2f5f184279136d4a937ea1c2c6487b9aaf999e"}
+	}
+	Component
+	{
+		string %Name{"manifest"}
+		string %Sha256{"aafdac9c74f50d8c19a697beedfa07009b23e79fb490d5dba15a921f01d4a7b1"}
+	}
 }
 
 Package
 {
 	string %Id{"plasma.xrtoolkit"}
 	string %Version{"1.0.0"}
-	string %Source{"local"}
-	string %AbiTag{"win64-msvc19-0.12.1-abi7-dev"}
+	string %Source{"registry"}
+	string %Registry{"plasma-official"}
+	string %AbiTag{"win64-msvc19-0.12.2-abi7-dev"}
+	Component
+	{
+		string %Name{"sdk-win64"}
+		string %Sha256{"a383cd72fa23494919feb21f06023f93f957eee2009fb75c0262dd9d47935ae5"}
+	}
+	Component
+	{
+		string %Name{"tool"}
+		string %Sha256{"b044630f789e30598967edfccb81e61bbbcaeab53d951f037f7e4b3fcf54ea02"}
+	}
+	Component
+	{
+		string %Name{"editor-win64"}
+		string %Sha256{"d9a549723e7fe5cfbe5467ec686ed7526961fee3775e35fd7bc9dfe057b39043"}
+	}
+	Component
+	{
+		string %Name{"runtime-win64"}
+		string %Sha256{"dd9c9fd040e254e71e9d504b0686c04c8f7ab6368117acdf81a34d656f6e979c"}
+	}
+	Component
+	{
+		string %Name{"manifest"}
+		string %Sha256{"df5fb7366f655a03ed43b38c646bac10331012750973222634cbe778af01ed96"}
+	}
+	Component
+	{
+		string %Name{"assets"}
+		string %Sha256{"e78a0c23cfb23509b8b157c19e8e8878de7c4b56513994ac0d70aa506e8586b3"}
+	}
 }
 
 Digest
 {
-	string %Sha256{"1248de8c307027cf4db9f9f76457aa048138d39010d8fadb1d52cd69d1eb1afd"}
+	string %Sha256{"4827c1bece5dcb6db2e0925a48ced56616e92e11d5e9c871be3040966d56565a"}
 }
