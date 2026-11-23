@@ -34,10 +34,9 @@ Everything else is level dressing: a checker floor, two pillars, the sky and a s
 | `plasma.xrtoolkit` | The hand, pointer, teleport and turn components. |
 | `plasma.jolt` | Physics for the grabbable objects, and the surfaces the teleport arc lands on. |
 
-The packages are listed in `Editor/Packages.ddl` and installed into `Plugins/`, which is not checked in. Until
-`plasma.xrtoolkit` is published to the package registry, install it from a source checkout of
-[plasma.xrtoolkit](https://github.com/PlasmaEngine/plasma.xrtoolkit). The Vive grip and trackpad fixes, the pull and
-catch, and pushing need the open pull requests on `plasma.openxr`, `plasma.xrtoolkit` and the engine.
+Requires Windows and Plasma Engine 0.12.2. The packages are listed in `Editor/Packages.ddl` (Jolt 1.3.2, OpenXR 1.3.2
+and XR Toolkit 1.0.0) and come from the package registry: the first time the editor opens the project, it offers to
+install them into `Plugins/`, which is not checked in.
 
 ## Without a headset
 
